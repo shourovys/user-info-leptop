@@ -1,0 +1,38 @@
+.userData-container{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.userImg-container{
+    flex-basis: 30%;
+}
+.userImg-container img{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.userInfo-container{
+    flex-basis: 30%;
+    margin:0px 10px;
+    font-size: 1.5rem;
+    display: flex;
+}
+.addBtn{
+    position: relative;
+    top: 275px;
+    left: -25px;
+}
+.add-btn{
+    margin: 5px 10px;
+    padding: 2px 8px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.add-btn :hover{
+    color: mediumturquoise;
+    background-color: lightgray;
+}
+
